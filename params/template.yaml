@@ -1,11 +1,11 @@
 parameters:
-- name: kubernetes.flavor
-  value: aks
 - name: component.kubernetes
   kind: user
   parameters:
   - name: aks
     parameters:
+    - name: cluster
+      empty: allow
     - name: agentCount
     - name: agentVmSize
     - name: agentVmOs
