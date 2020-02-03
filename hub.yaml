@@ -51,6 +51,8 @@ lifecycle:
   - dex
   - kube-dashboard
   - automation-tasks
+  - olm
+  - okd-console
   requires:
     optional:
     - component.cert-manager.enabled:cert-manager
