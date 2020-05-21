@@ -32,11 +32,6 @@ parameters:
   - name: okta.clientSecret
     fromEnv: DEX_OKTA_APP_CLIENT_SECRET
 
-- name: component.cert-manager
-  parameters:
-  - name: default-issuer
-    value: letsencrypt-prod
-
 - name: component.kubernetes-dashboard.name
   value: kubernetes-dashboard-asi
 
